@@ -31,6 +31,8 @@ header h1{
 
 header p{
     font-size:1.2rem;
+    max-width:900px;
+    margin:auto;
 }
 
 .news-grid{
@@ -105,6 +107,12 @@ footer{
     padding:30px;
     color:#94a3b8;
 }
+
+@media(max-width:800px){
+    header h1{
+        font-size:2rem;
+    }
+}
 </style>
 </head>
 
@@ -112,42 +120,46 @@ footer{
 
 <header>
     <h1>World News Wall</h1>
-    <p>Three live windows on the world — watch major news channels from different countries simultaneously.</p>
+    <p>Three live windows on the world — compare international news coverage from different regions simultaneously.</p>
 </header>
 
 <div class="news-grid">
 
-    <!-- BBC -->
+    <!-- AL JAZEERA -->
     <section class="news-card">
         <div class="card-header">
-            <h2>🇬🇧 BBC News</h2>
-            <span>United Kingdom / World</span>
+            <h2>🇶🇦 Al Jazeera English</h2>
+            <span>Qatar / Global</span>
         </div>
 
         <div class="video-wrap">
             <iframe
-                src="https://www.youtube.com/embed/live_stream?channel=UC16niRr50-MSBwiO3YDb3RA"
-                title="BBC News Live"
+                src="https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg"
+                title="Al Jazeera English"
                 allowfullscreen>
             </iframe>
         </div>
 
         <div class="card-footer">
-            UK and international news from the BBC.
+            International news and analysis from Al Jazeera English.
 
             <div class="buttons">
-                <a class="button" href="https://www.youtube.com/@BBCNews/live" target="_blank">
-                    Open Live Stream
+                <a class="button"
+                   href="https://www.youtube.com/@aljazeeraenglish/live"
+                   target="_blank">
+                   Open Live Stream
                 </a>
 
-                <a class="button secondary" href="https://www.youtube.com/@BBCNews" target="_blank">
-                    BBC News Channel
+                <a class="button secondary"
+                   href="https://www.youtube.com/@aljazeeraenglish"
+                   target="_blank">
+                   Channel
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- France 24 -->
+    <!-- FRANCE 24 -->
     <section class="news-card">
         <div class="card-header">
             <h2>🇫🇷 France 24 English</h2>
@@ -157,7 +169,7 @@ footer{
         <div class="video-wrap">
             <iframe
                 src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg"
-                title="France24"
+                title="France 24 English"
                 allowfullscreen>
             </iframe>
         </div>
@@ -166,18 +178,22 @@ footer{
             International news in English from France.
 
             <div class="buttons">
-                <a class="button" href="https://www.youtube.com/@France24_en/live" target="_blank">
-                    Open Live Stream
+                <a class="button"
+                   href="https://www.youtube.com/@France24_en/live"
+                   target="_blank">
+                   Open Live Stream
                 </a>
 
-                <a class="button secondary" href="https://www.youtube.com/@France24_en" target="_blank">
-                    Channel
+                <a class="button secondary"
+                   href="https://www.youtube.com/@France24_en"
+                   target="_blank">
+                   Channel
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- DW -->
+    <!-- DW NEWS -->
     <section class="news-card">
         <div class="card-header">
             <h2>🇩🇪 DW News</h2>
@@ -196,12 +212,16 @@ footer{
             Global news and analysis from Germany.
 
             <div class="buttons">
-                <a class="button" href="https://www.youtube.com/@dwnews/live" target="_blank">
-                    Open Live Stream
+                <a class="button"
+                   href="https://www.youtube.com/@dwnews/live"
+                   target="_blank">
+                   Open Live Stream
                 </a>
 
-                <a class="button secondary" href="https://www.youtube.com/@dwnews" target="_blank">
-                    Channel
+                <a class="button secondary"
+                   href="https://www.youtube.com/@dwnews"
+                   target="_blank">
+                   Channel
                 </a>
             </div>
         </div>
